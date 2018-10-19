@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  overflow: auto;
+}
+.container {
+  background: #10041f;
+}
+.hero {
+  height: 40em;
+  width: auto;
+  background-size:cover;
+  background-position:50% 50%;
+  background-image: url('/assets/img/travel.jpg');
+  image-rendering: pixelated;
+}
+
+.hero-btn {
+  color: #10041F;
+  height: 60px;
+  width: auto;
+  font-weight: 700;
+  font-size: 1.3em;
+  margin: 0 auto;
+}
+
