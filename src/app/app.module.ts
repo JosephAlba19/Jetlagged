@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { MenuComponent } from './menu/menu.component';
+import { NavComponent } from './nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatIconModule, MatListModule, MatMenuModule } from '@angular/material';
 
@@ -16,7 +16,7 @@ import { MatToolbarModule, MatButtonModule, MatIconModule, MatListModule, MatMen
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    NavComponent
   ],
   imports: [
     BrowserModule,
