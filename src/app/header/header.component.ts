@@ -6,10 +6,10 @@ import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-mat-menu',
-  templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.scss'],
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.scss'],
 })
-export class NavComponent {
+export class HeaderComponent {
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(

@@ -12,19 +12,43 @@
   padding: 0;
 }
 
-.about {
-  // display: flex;
-}
-
-.user-card {
-  .example-card {
-    max-width: 300px;
-    .example-header-image {
-      background-image: url('../../assets/img/mojo.jpg');
-      background-size: cover;
+#tab-container {
+  background: #fff;
+  #tab-1 {
+    padding: 30px;
+    height: 400px;
+    width: 65%;
+    .about {
+      h1 {
+        text-align: center;
+      }
+      p {
+        font-weight: 500;
+        line-height: 1.5em;
+        text-align: justify;
+      }
     }
   }
+  .user-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    .example-card {
+      max-width: 300px;
+      padding: 30px;
+      .example-header-image {
+        background-image: url('../../assets/img/mojo.jpg');
+        background-size: cover;
+      }
+    }
+  }
+  // .about-2 {
+  //   width: 100%;
+  // }
 }
+
+
+
 
 // .about-container {
 //   overflow: hidden;

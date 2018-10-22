@@ -4,10 +4,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
+import { HeaderComponent } from './header/header.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatIconModule, MatListModule, MatMenuModule, MatBadgeModule } from '@angular/material';
-import { MatTabsModule, MatGridListModule, MatCardModule } from '@angular/material';
+import { MatTabsModule, MatGridListModule, MatCardModule, MatDividerModule } from '@angular/material';
 import { MainComponent } from './main/main.component';
 
 
@@ -18,7 +18,7 @@ import { MainComponent } from './main/main.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent,
+    HeaderComponent,
     MainComponent
   ],
   imports: [
@@ -34,7 +34,8 @@ import { MainComponent } from './main/main.component';
     MatBadgeModule,
     MatTabsModule,
     MatGridListModule,
-    MatCardModule
+    MatCardModule,
+    MatDividerModule
     // RouterModule.forRoot(appRoutes)
   ],
   providers: [],

@@ -1,56 +1,58 @@
 <div class="hero"></div>
 
-<mat-tab-group mat-align-tabs="center" backgroundColor="primary">
-  <mat-tab label="Start Your Adventure">
+<mat-tab-group mat-align-tabs="center" backgroundColor="primary" id="tab-container">
+  <mat-tab label="Start Your Adventure" id="tab-1">
+
     <div class="about">
-      <h1>Lorem Ipsum Dolor Sit Amet</h1>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, itaque quam deleniti culpa, delectus
-        tempore
-        sapiente optio quidem excepturi dolore aliquam porro modi laborum accusantium velit sequi fuga. Neque vitae
-        debitis illum eligendi cumque, nisi nobis error deserunt culpa enim.</p>
-    </div>
-
-    <div class="user-card">
-      <mat-card class="example-card">
-        <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>Mojo Jojo</mat-card-title>
-          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-        </mat-card-header>
-        <img mat-card-image src='../../assets/img/granada.jpg'>
-        <mat-card-content>
-          <p>
-            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-            bred for hunting.
-          </p>
-        </mat-card-content>
-        <mat-card-actions>
-          <button mat-button>LIKE</button>
-          <button mat-button>SHARE</button>
-        </mat-card-actions>
-      </mat-card>
-    </div>
-    <!-- Dynamic Grid -->
-
-    <!-- <mat-grid-list cols="
-          4" rowHeight="300px" gutterSize="2px">
-        <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
-          {{tile.text}}
+      <mat-grid-list cols="2" rowHeight="600px" role="list" gutterSize="2px">
+        <mat-grid-tile role="listitem">
+          <h1>Start Your Adventure Here</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aspernatur repellendus ut saepe
+            deleniti. Debitis ipsa fugit recusandae quo nostrum, ex eveniet, soluta, suscipit perferendis atque dicta
+            laboriosam? Tempore, quaerat voluptatum consequatur dolorem reiciendis quo reprehenderit recusandae id
+            cumque
+            nulla maxime illo provident voluptates voluptate modi. Neque obcaecati incidunt quos.</p>
         </mat-grid-tile>
-        </mat-grid-list> -->
+      </mat-grid-list>
+    </div>
+    <mat-divider color="primary"></mat-divider>
 
     <!-- Basic grid-list -->
 
-    <!-- <mat-grid-list cols="2" rowHeight="2:1" role="list" gutterSize="2px">
-
+    <mat-grid-list cols="2" rowHeight="600px" role="list" gutterSize="2px">
       <mat-grid-tile role="listitem">
-        <mat-grid-tile-header>Title</mat-grid-tile-header>
         <h1>Start Your Adventure Here</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aspernatur repellendus ut saepe
+          deleniti. Debitis ipsa fugit recusandae quo nostrum, ex eveniet, soluta, suscipit perferendis atque dicta
+          laboriosam? Tempore, quaerat voluptatum consequatur dolorem reiciendis quo reprehenderit recusandae id cumque
+          nulla maxime illo provident voluptates voluptate modi. Neque obcaecati incidunt quos.</p>
       </mat-grid-tile>
 
-      <mat-grid-tile role="listitem">2</mat-grid-tile>
-    </mat-grid-list> -->
+      <mat-grid-tile role="listitem">
+        <div class="user-card">
+          <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>Mojo Jojo</mat-card-title>
+              <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src='../../assets/img/granada.jpg'>
+            <mat-card-content>
+              <p>
+                The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+                A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+                bred for hunting.
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button color="primary">LIKE</button>
+              <button mat-button color="accent">SHARE</button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+      </mat-grid-tile>
+    </mat-grid-list>
+
   </mat-tab>
   <mat-tab label="Second">Content 2</mat-tab>
   <mat-tab label="Third">Content 3</mat-tab>
