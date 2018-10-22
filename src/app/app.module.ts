@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatIconModule, MatListModule, MatMenuModule, MatBadgeModule } from '@angular/material';
-import { MatTabsModule, MatGridListModule } from '@angular/material';
+import { MatTabsModule, MatGridListModule, MatCardModule } from '@angular/material';
 import { MainComponent } from './main/main.component';
 
 
@@ -33,7 +33,8 @@ import { MainComponent } from './main/main.component';
     MatMenuModule,
     MatBadgeModule,
     MatTabsModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
     // RouterModule.forRoot(appRoutes)
   ],
   providers: [],

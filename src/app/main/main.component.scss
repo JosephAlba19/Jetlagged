@@ -8,8 +8,22 @@
   background-position: center center;
   background-repeat: no-repeat;
   text-align:center;
-  margin:auto;
-  padding:0;
+  margin: auto;
+  padding: 0;
+}
+
+.about {
+  // display: flex;
+}
+
+.user-card {
+  .example-card {
+    max-width: 300px;
+    .example-header-image {
+      background-image: url('../../assets/img/mojo.jpg');
+      background-size: cover;
+    }
+  }
 }
 
 // .about-container {
