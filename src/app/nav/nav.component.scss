@@ -1,9 +1,14 @@
+@import './src/variables.scss';
+
 .mat-toolbar {
-  background: #14001F;
-  color: #fff;
+  // background: $primary-color;
   .logo {
     flex: 1 1 0;
     padding: 20px;
+    button {
+      font-size: 32px;
+    }
+    // color: $secondary-color;
     a {
       text-decoration: none;
       color: inherit;
@@ -15,17 +20,20 @@
       li {
         display: inline-block;
         padding: 20px;
-        a {
-          color: inherit;
-          text-decoration: none;
-          &:hover {
-            border-bottom: 2px solid #FFBF00;
-            padding-bottom: 5px;
+        button {
+          font-size: 16px;
+          a {
+            // color: #fff;
+            text-decoration: none;
+            // &:hover {
+            //   color: $primary-color;
+            // }
+        }
+          // padding-bottom: 5px;
           }
         }
       }
     }
-  }
 }
 
 

@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$jetlagged-theme-primary: mat-palette($mat-green);
+$jetlagged-theme-accent: mat-palette($mat-deep-purple, 200, 300, A100);
+$jetlagged-theme-warn: mat-palette($mat-red);
+
+$jetlagged-theme: mat-light-theme($jetlagged-theme-primary, $jetlagged-theme-accent, $jetlagged-warn);
+
+@include angular-material-theme($jetlagged-theme);

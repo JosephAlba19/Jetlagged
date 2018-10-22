@@ -1,0 +1,23 @@
+@import './src/variables.scss';
+
+.hero {
+  width: auto;
+  height:600px;
+  background-image: url('../../assets/img/travel.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+}
+// .about-container {
+//   overflow: hidden;
+//   padding: 0;
+//   margin: 0;
+//   height: 100%;
+//   background: #303030;
+//   .about {
+
+//   }
+// }

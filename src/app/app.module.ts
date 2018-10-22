@@ -6,7 +6,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatButtonModule, MatIconModule, MatListModule, MatMenuModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatIconModule, MatListModule, MatMenuModule, MatBadgeModule } from '@angular/material';
+import { MatTabsModule, MatGridListModule } from '@angular/material';
+import { MainComponent } from './main/main.component';
 
 
 // const appRoutes: Routes = [
@@ -16,7 +18,8 @@ import { MatToolbarModule, MatButtonModule, MatIconModule, MatListModule, MatMen
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +31,9 @@ import { MatToolbarModule, MatButtonModule, MatIconModule, MatListModule, MatMen
     MatListModule,
     MatButtonModule,
     MatMenuModule,
+    MatBadgeModule,
+    MatTabsModule,
+    MatGridListModule
     // RouterModule.forRoot(appRoutes)
   ],
   providers: [],
