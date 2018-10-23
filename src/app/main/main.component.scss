@@ -1,5 +1,9 @@
 @import './src/variables.scss';
 
+* {
+  background: #F8F8FF;
+}
+
 .hero {
   width: auto;
   height:600px;
@@ -12,18 +16,46 @@
   padding: 0;
 }
 
-mat-grid-tile {
-  background: #F8F8FF;
-  }
-  .user-card {
-    padding: 20px;
-    .example-card {
-      max-width: 300px;
+  .info-1 {
+   width: 100%;
+   height: auto;
+   display: flex;
+
+    .text {
+      width: 65%;
       padding: 30px;
+      margin: 0 auto;
+      text-align: center;
+      h1 {
+        padding: 20px;
+        color: #3f51b5;
+      }
+      p {
+        padding: 5px;
+        font-size: 18px;
+        line-height: 1.5em;
+      }
+    }
+   .user-card {
+    width: 35%;
+    padding: 30px;
+    .example-card {
+      // max-width: 300px;
+      padding: 30px;
+      mat-card-title {
+        color: $primary-color;
+        text-align: center;
+      }
     }
   }
+  }
+.info-2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+
   .user-card-2 {
-    padding: 20px;
+    padding: 30px;
     .example-card-2 {
       max-width: 300px;
       padding: 30px;
@@ -33,3 +65,20 @@ mat-grid-tile {
       }
     }
   }
+  .text-2 {
+    width: 65%;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+    h1 {
+      padding: 20px;
+      color: #3f51b5;
+    }
+    p {
+      padding: 5px;
+      font-size: 18px;
+      line-height: 1.5em;
+    }
+  }
+}
+

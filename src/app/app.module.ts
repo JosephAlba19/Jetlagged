@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatIconModule, MatListModule, MatMenuModule, MatBadgeModule } from '@angular/material';
 import { MatTabsModule, MatGridListModule, MatCardModule, MatDividerModule } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { MainComponent } from './main/main.component';
 
 
@@ -35,7 +36,8 @@ import { MainComponent } from './main/main.component';
     MatTabsModule,
     MatGridListModule,
     MatCardModule,
-    MatDividerModule
+    MatDividerModule,
+    FlexLayoutModule
     // RouterModule.forRoot(appRoutes)
   ],
   providers: [],
