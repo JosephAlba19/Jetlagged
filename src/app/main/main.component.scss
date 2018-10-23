@@ -12,28 +12,19 @@
   padding: 0;
 }
 
-#tab-container {
-  background: #fff;
-  #tab-1 {
-    padding: 30px;
-    height: 400px;
-    width: 65%;
-    .about {
-      h1 {
-        text-align: center;
-      }
-      p {
-        font-weight: 500;
-        line-height: 1.5em;
-        text-align: justify;
-      }
-    }
+mat-grid-tile {
+  background: #F8F8FF;
   }
   .user-card {
     padding: 20px;
-    display: flex;
-    flex-direction: row;
     .example-card {
+      max-width: 300px;
+      padding: 30px;
+    }
+  }
+  .user-card-2 {
+    padding: 20px;
+    .example-card-2 {
       max-width: 300px;
       padding: 30px;
       .example-header-image {
@@ -42,21 +33,3 @@
       }
     }
   }
-  // .about-2 {
-  //   width: 100%;
-  // }
-}
-
-
-
-
-// .about-container {
-//   overflow: hidden;
-//   padding: 0;
-//   margin: 0;
-//   height: 100%;
-//   background: #303030;
-//   .about {
-
-//   }
-// }
