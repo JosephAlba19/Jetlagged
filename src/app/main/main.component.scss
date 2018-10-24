@@ -4,6 +4,10 @@
   background: #F8F8FF;
 }
 
+h1 {
+  color: $primary-color;
+}
+
 .hero {
   width: auto;
   height:600px;
@@ -82,3 +86,11 @@
   }
 }
 
+// .example-container {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .example-container > * {
+//   width: 100%;
+// }

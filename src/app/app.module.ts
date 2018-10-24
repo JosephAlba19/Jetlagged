@@ -37,7 +37,8 @@ import { MainComponent } from './main/main.component';
     MatGridListModule,
     MatCardModule,
     MatDividerModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+
     // RouterModule.forRoot(appRoutes)
   ],
   providers: [],
